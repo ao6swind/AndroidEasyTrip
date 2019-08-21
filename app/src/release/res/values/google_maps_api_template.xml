@@ -1,0 +1,7 @@
+<resources>
+<!--
+    先去申請自己的Google Maps API key然後在此設定
+    並把這個檔案改名為google_maps_api.xml
+    <string name="google_maps_key" translatable="false" templateMergeStrategy="preserve">ADD_YOUR_KEY_HERE</string>
+-->
+</resources>
