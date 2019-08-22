@@ -121,7 +121,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
             // 如果資料庫中有紀錄，則擷取資料庫的資料
             if(bookmark != null) {
                 val image = ImageUtils.loadBitmapFromFile(applicationContext, "${bookmark.placeId}.png")
-                openForm(bookmark, image!!,false)
+                openForm(bookmark, image!!, false)
             }
             // 如果沒有，就向Google Place API擷取資料（要注意網路是否有通）
             else {

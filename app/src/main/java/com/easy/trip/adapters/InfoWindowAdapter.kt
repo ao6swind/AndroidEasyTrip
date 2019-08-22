@@ -10,7 +10,7 @@ import com.easy.trip.utilities.ImageUtils
 import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.model.Marker
 
-class InfoWindowAdapter(val context: Activity) : GoogleMap.InfoWindowAdapter {
+class InfoWindowAdapter(private val context: Activity) : GoogleMap.InfoWindowAdapter {
 
     private var contents: View
 
